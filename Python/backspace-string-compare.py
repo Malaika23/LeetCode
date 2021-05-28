@@ -21,3 +21,6 @@ class Solution:
             else: t.append(c)
 
         return ''.join(s) == ''.join(t)
+
+    #what about if my i/p is ##ab#c there would be underflow.
+    
